@@ -1,0 +1,25 @@
+public class addToCart {
+	public static void main(String[] args) {
+		cart<String> ar = new cart<String>();
+		public void newCart(cartID){
+			int cartID = (int)(Math.random() * 50 + 1);
+			}
+		public void calcPrice() {
+ 			return productPrice;
+			}
+		public void addCartItem(productName) {
+			ar.add(productName);
+			}
+		public void totalPrice(toTalPrice) {
+			toTalPrice = toTalPrice*tax;
+			return toTalPrice;	
+			}
+		public void checkout() {
+			return placeOrder();
+			return notification();	
+			}
+	}
+}
+
+			
+	

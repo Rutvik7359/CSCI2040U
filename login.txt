@@ -1,0 +1,23 @@
+public class login{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String userid;
+		String password;
+
+		userid = input.nextLine();
+		password = input.nextLine();
+	
+		verifyLogin check = new verifyLogin(userid,password);
+		if(check.auth())
+		{
+			System.out.println("You are logged in");
+			return getUser(userid);
+		}
+		else
+		{
+			System.out.println("Incorrect password or UserID. Please try again!");
+		}
+	}
+}	
+		
+	

@@ -1,0 +1,25 @@
+public class Search {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String keyword;
+		String DepartmentNames;
+		String CategoryNames;
+		String ProductNames;
+
+		
+		keyword = input.nextLine();
+		public void getdepartment() {
+			return DepartmentNames;
+		}
+		public void getCategoryinDepartment() {
+			return CategoryNames;
+		}
+		public void getProductsinCategory() {
+			return ProductNames;
+		}
+		public void getProductDetails() {
+			return ProductDetails;
+		}
+	}
+}
+			
